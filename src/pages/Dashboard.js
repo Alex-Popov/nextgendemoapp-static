@@ -60,19 +60,7 @@ function Dashboard() {
 
         <div className={css.wrapper}>
             <div className={css.body}>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                TBD
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <iframe src="https://20.84.57.69:3443/guest?key=2ba4e3b3&populate=visualizationId&item_id=27" className={css.iframe}></iframe>
             </div>
         </div>
     </>;
