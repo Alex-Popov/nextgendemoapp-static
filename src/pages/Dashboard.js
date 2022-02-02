@@ -51,8 +51,8 @@ function Dashboard() {
                 <div className="d-flex align-items-center ml-4">
                     <div className={css.avatar}></div>
                     <div>
-                        <Typography variant="h3" component="div">NEXTGen User</Typography>
-                        <Typography variant="h4" component="div">Admin</Typography>
+                        <Typography variant="h3" component="div">Michael Williams</Typography>
+                        <Typography variant="h4" component="div">Category Manager</Typography>
                     </div>
                 </div>
             </div>
