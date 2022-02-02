@@ -1,0 +1,103 @@
+
+/*
+ * font
+ */
+
+@value fontFamily-default: "Roboto", "Helvetica", "Arial", sans-serif;
+@value fontFamily-heading: "Roboto", "Helvetica", "Arial", sans-serif;
+
+
+/*
+ * match to Bootstrap margin/padding breakpoints
+ */
+
+@value breakpoint-sm: 576px;
+@value breakpoint-md: 768px;
+@value breakpoint-lg: 992px;
+@value breakpoint-xl: 1200px;
+
+@value padding-1: 0.25rem;
+@value padding-2: 0.5rem;
+@value padding-3: 1rem;
+@value padding-4: 1.5rem;
+@value padding-5: 3rem;
+
+@value padding-1negative: -0.25rem;
+@value padding-2negative: -0.5rem;
+@value padding-3negative: -1rem;
+@value padding-4negative: -1.5rem;
+@value padding-5negative: -3rem;
+
+/*
+ * Colors
+ */
+
+@value color-primary: rgb(28, 105, 212);
+@value color-secondary: #666;
+
+@value color-info: #2196f3;
+@value color-warning: #ffd138;
+@value color-error: #f44336;
+@value color-success: #4caf50;
+
+@value colorText-primary:  rgba(38, 38, 38, 1); /*#262626*/
+@value colorText-secondary: #666;
+@value colorText-heading: rgba(38, 38, 38, 1); /*#262626*/
+@value colorText-disabled: rgba(38, 38, 38, 0.38);
+@value colorText-hint: rgba(38, 38, 38, 0.38);
+
+@value colorBackground-default: rgb(255, 255, 255);
+@value colorBackground-primary: rgb(28, 105, 212);
+@value colorBackground-paper: #f2f2f2;
+@value colorBackground-control: rgb(255, 255, 255);
+
+@value color-border: #ebebeb;
+
+@value colorAction-active: rgba(38, 38, 38, 0.54);
+@value colorAction-hover: rgba(38, 38, 38, 0.04);
+@value colorAction-selected: rgba(38, 38, 38, 0.08);
+@value colorAction-focus: rgba(38, 38, 38, 0.12);
+
+
+/*
+ * z-Index levels
+ */
+
+@value zIndex-mobileStepper: 1000;
+@value zIndex-speedDial: 1050;
+@value zIndex-appBar: 1100;
+@value zIndex-drawer: 1200;
+@value zIndex-modal: 1300;
+@value zIndex-snackbar: 1400;
+@value zIndex-tooltip: 1500;
+
+
+/*
+ * shadow levels
+ */
+
+@value shadow-0: none;
+@value shadow-1: 0px 2px 1px -1px rgba(0,0,0,0.1);
+@value shadow-2: 0px 3px 1px -2px rgba(0,0,0,0.1);
+@value shadow-3: 0px 3px 3px -2px rgba(0,0,0,0.1);
+@value shadow-4: 0px 2px 4px -1px rgba(0,0,0,0.1);
+@value shadow-5: 0px 3px 5px -1px rgba(0,0,0,0.1);
+@value shadow-6: 0px 3px 5px -1px rgba(0,0,0,0.1);
+@value shadow-7: 0px 4px 5px -2px rgba(0,0,0,0.1);
+@value shadow-8: 0px 5px 5px -3px rgba(0,0,0,0.1);
+@value shadow-9: 0px 5px 6px -3px rgba(0,0,0,0.1);
+@value shadow-10: 0px 6px 6px -3px rgba(0,0,0,0.08);
+@value shadow-11: 0px 6px 7px -4px rgba(0,0,0,0.08);
+@value shadow-12: 0px 7px 8px -4px rgba(0,0,0,0.08);
+@value shadow-13: 0px 7px 8px -4px rgba(0,0,0,0.08);
+@value shadow-14: 0px 7px 9px -4px rgba(0,0,0,0.08);
+@value shadow-15: 0px 8px 9px -5px rgba(0,0,0,0.08);
+@value shadow-16: 0px 8px 10px -5px rgba(0,0,0,0.08);
+@value shadow-17: 0px 8px 11px -5px rgba(0,0,0,0.08);
+@value shadow-18: 0px 9px 11px -5px rgba(0,0,0,0.08);
+@value shadow-19: 0px 9px 12px -6px rgba(0,0,0,0.08);
+@value shadow-20: 0px 10px 13px -6px rgba(0,0,0,0.06);
+@value shadow-21: 0px 10px 13px -6px rgba(0,0,0,0.06);
+@value shadow-22: 0px 10px 14px -6px rgba(0,0,0,0.06);
+@value shadow-23: 0px 11px 14px -7px rgba(0,0,0,0.06);
+@value shadow-24: 0px 11px 15px -7px rgba(0,0,0,0.06);

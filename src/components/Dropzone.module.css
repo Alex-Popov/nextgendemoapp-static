@@ -1,0 +1,69 @@
+
+.main {
+    padding: 2rem;
+
+    border: 2px dashed  var(--color-border);
+    border-radius: 4px;
+
+    color: var(--colorText-primary);
+    background-color: rgba(0, 0, 0, .15);
+    outline: none;
+}
+
+.label {
+    text-align: center;
+}
+
+
+/* full screen */
+
+.fullscreen {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    outline: none;
+}
+.fullscreen:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 5rem;
+    bottom: 5rem;
+    left: 5rem;
+    right: 5rem;
+    border: 5px dashed rgba(255, 255, 255, .6);
+}
+.fullscreen .label {
+    padding: 5rem 7rem;
+
+/*    max-width: 50%;*/
+    position: relative;
+    z-index: -1;
+    font-size: 2rem;
+}
+
+
+/* reject alert */
+
+.alert {
+    position: absolute;
+    bottom: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+
+/* state */
+
+.reject,
+.reject:before {
+    border-color: var(--color-error);
+}

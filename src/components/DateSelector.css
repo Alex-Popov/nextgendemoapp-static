@@ -1,0 +1,37 @@
+.MuiPickersStaticWrapper-staticWrapperRoot {
+    min-width: 0 !important;
+    background-color: transparent !important;
+}
+.MuiPickersStaticWrapper-staticWrapperRoot .MuiPickersBasePicker-pickerView {
+    min-width: 0;
+    min-height: 0;
+}
+.MuiPickersStaticWrapper-staticWrapperRoot .MuiPickersCalendar-week {
+    justify-content: space-around;
+}
+.MuiPickersStaticWrapper-staticWrapperRoot .MuiPickersCalendar-week > div {
+    width: 100%;
+}
+.MuiPickersStaticWrapper-staticWrapperRoot .MuiPickersDay-day {
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
+    margin: 0;
+    position: relative;
+}
+.MuiPickersStaticWrapper-staticWrapperRoot .MuiPickersDay-day .MuiIconButton-label {
+    position: absolute;
+    width: 100%;
+    top: calc(50% + .5px);
+    left: 0;
+    transform: translateY(-50%);
+}
+.MuiPickersStaticWrapper-staticWrapperRoot .MuiPickersDay-day .MuiIconButton-label .MuiTypography-body2 {
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+.MuiPickersStaticWrapper-staticWrapperRoot .MuiPickersCalendarHeader-iconButton {
+    background-color: transparent;
+}
+

@@ -1,0 +1,26 @@
+
+.button {
+    display: block !important;
+    width: 100%;
+
+    color: var(--colorText-primary) !important;
+}
+
+.container {
+    position: relative;
+    max-width: 90px;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 0.75rem;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto
+}
+.container :global(svg) {
+    display: block;
+}

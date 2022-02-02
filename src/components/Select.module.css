@@ -1,0 +1,13 @@
+
+.select {
+    color: currentColor !important;
+    padding-left: 6px !important;
+}
+.select option {
+    background-color: var(--colorBackground-control) !important;
+    color: currentColor !important;
+}
+
+.fullWidth {
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+.root {
+    position: relative;
+    cursor: pointer;
+}
+
+.icon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    opacity: .4;
+    font-size: 12px;
+}
+.root:hover .icon {
+    display: block;
+}
+
+.copied .icon {
+    display: block;
+    opacity: .8;
+}

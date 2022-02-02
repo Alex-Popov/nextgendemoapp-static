@@ -1,0 +1,9 @@
+
+.muiRoot {
+    padding: 0 !important;
+}
+
+.textarea {}
+.textarea + .textarea {
+    padding: 0 !important;
+}
