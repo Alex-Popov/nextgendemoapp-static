@@ -37,7 +37,7 @@ function Dashboard() {
                 </div>
 
                 <div className={css.separator}></div>
-                <div className={css.title}>NEXTGen Supplier Risk Sensing Platform</div>
+                <div className={css.title}>NextGen Supplier Risk Management</div>
             </div>
 
             <div className="d-flex align-items-center">
