@@ -33,7 +33,7 @@ function Dashboard() {
                 </IconButton>
 
                 <div className={css.logo}>
-                    <img alt="BMW" src="/img/logo300.png" />
+                    <img alt="BMW" src="/img/logo-kearney.png" />
                 </div>
 
                 <div className={css.separator}></div>
